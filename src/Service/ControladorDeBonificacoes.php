@@ -2,7 +2,7 @@
 
 namespace Projeto01\Banco\Service;
 
-use Projeto01\Banco\Modelo\Funcionario;
+use Projeto01\Banco\Modelo\Funcionario\Funcionario;
 
 class ControladorDeBonificacoes
 {
