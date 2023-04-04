@@ -1,11 +1,7 @@
 <?php
 
-use Projeto01\Banco\Modelo\Conta\Conta;
-use Projeto01\Banco\Modelo\Conta\ContaCorrente;
-use Projeto01\Banco\Modelo\Conta\ContaPoupanca;
-use Projeto01\Banco\Modelo\Conta\Titular;
-use Projeto01\Banco\Modelo\CPF;
-use Projeto01\Banco\Modelo\Endereco;
+use Projeto01\Banco\Modelo\Conta\{Conta, ContaCorrente, ContaPoupanca, Titular};
+use Projeto01\Banco\Modelo\{CPF, Endereco};
 
 require_once 'autoload.php';
 
