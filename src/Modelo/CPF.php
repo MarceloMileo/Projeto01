@@ -2,7 +2,7 @@
 
 namespace Projeto01\Banco\Modelo;
 
-class CPF
+final class CPF
 {
     private $numero;
 

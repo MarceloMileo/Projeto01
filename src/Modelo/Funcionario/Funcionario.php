@@ -26,11 +26,6 @@ abstract class Funcionario extends Pessoa
         return $this->salario;
     }
 
-    public function calculaBonificacao(): float
-    {
-        return $this->salario * 0.10;
-    }
-
     public function recebeAumento(float $valor): void
     {
         if($valor < 0){
@@ -40,4 +35,6 @@ abstract class Funcionario extends Pessoa
 
         $this->salario += $this->salario + $valor;
     }
+    
+    abstract public function calculaBonificacao(): float;
 }
