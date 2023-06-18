@@ -1,13 +1,13 @@
 <?php
 
-use Alura\Banco\Modelo\CPF;
-use Alura\Banco\Modelo\Funcionario\Diretor;
-use Alura\Banco\Service\Autenticador;
+use Projeto01\Banco\Modelo\CPF;
+use Projeto01\Banco\Modelo\Funcionario\Diretor;
+use Projeto01\Banco\Service\Autenticador;
 
 require_once 'autoload.php';
 
 $autenticador = new Autenticador();
-$umDiretor = new \Alura\Banco\Modelo\Funcionario\Gerente(
+$umDiretor = new \Projeto01\Banco\Modelo\Funcionario\Gerente(
     'João da Silva',
     new CPF('123.456.789-10'),
     10000

@@ -2,9 +2,9 @@
 
 require_once 'autoload.php';
 
-use Alura\Banco\Service\ControladorDeBonificacoes;
-use Alura\Banco\Modelo\CPF;
-use Alura\Banco\Modelo\Funcionario\{Diretor, EditorVideo, Gerente, Desenvolvedor};
+use Projeto01\Banco\Service\ControladorDeBonificacoes;
+use Projeto01\Banco\Modelo\CPF;
+use Projeto01\Banco\Modelo\Funcionario\{Diretor, EditorVideo, Gerente, Desenvolvedor};
 
 $umFuncionario = new Desenvolvedor(
     'Vinicius Dias',

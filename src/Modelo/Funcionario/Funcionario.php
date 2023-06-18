@@ -1,9 +1,9 @@
 <?php
 
-namespace Alura\Banco\Modelo\Funcionario;
+namespace Projeto01\Banco\Modelo\Funcionario;
 
-use Alura\Banco\Modelo\CPF;
-use Alura\Banco\Modelo\Pessoa;
+use Projeto01\Banco\Modelo\CPF;
+use Projeto01\Banco\Modelo\Pessoa;
 
 abstract class Funcionario extends Pessoa
 {

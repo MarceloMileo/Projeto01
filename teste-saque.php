@@ -1,7 +1,7 @@
 <?php
 
-use Alura\Banco\Modelo\Conta\{ContaPoupanca, ContaCorrente, Titular};
-use Alura\Banco\Modelo\{CPF, Endereco};
+use Projeto01\Banco\Modelo\Conta\{ContaPoupanca, ContaCorrente, Titular};
+use Projeto01\Banco\Modelo\{CPF, Endereco};
 
 require_once 'autoload.php';
 

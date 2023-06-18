@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\Banco\Service;
+namespace Projeto01\Banco\Service;
 
-use Alura\Banco\Modelo\Funcionario\Funcionario;
+use Projeto01\Banco\Modelo\Funcionario\Funcionario;
 
 class ControladorDeBonificacoes
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\Banco\Service;
+namespace Projeto01\Banco\Service;
 
-use Alura\Banco\Modelo\Autenticavel;
+use Projeto01\Banco\Modelo\Autenticavel;
 
 class Autenticador
 {

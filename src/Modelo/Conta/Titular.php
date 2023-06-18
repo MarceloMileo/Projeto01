@@ -1,11 +1,11 @@
 <?php
 
-namespace Alura\Banco\Modelo\Conta;
+namespace Projeto01\Banco\Modelo\Conta;
 
-use Alura\Banco\Modelo\Autenticavel;
-use Alura\Banco\Modelo\Pessoa;
-use Alura\Banco\Modelo\CPF;
-use Alura\Banco\Modelo\Endereco;
+use Projeto01\Banco\Modelo\Autenticavel;
+use Projeto01\Banco\Modelo\Pessoa;
+use Projeto01\Banco\Modelo\CPF;
+use Projeto01\Banco\Modelo\Endereco;
 
 class Titular extends Pessoa implements Autenticavel
 {

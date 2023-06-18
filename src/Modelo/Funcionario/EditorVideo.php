@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Banco\Modelo\Funcionario;
+namespace Projeto01\Banco\Modelo\Funcionario;
 
 class EditorVideo extends Funcionario
 {

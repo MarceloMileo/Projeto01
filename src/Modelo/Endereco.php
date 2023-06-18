@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Banco\Modelo;
+namespace Projeto01\Banco\Modelo;
 
 /**
  * Class Endereco

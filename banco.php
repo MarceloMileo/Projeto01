@@ -2,10 +2,10 @@
 
 require_once 'autoload.php';
 
-use Alura\Banco\Modelo\Conta\Titular;
-use Alura\Banco\Modelo\Endereco;
-use Alura\Banco\Modelo\CPF;
-use Alura\Banco\Modelo\Conta\Conta;
+use Projeto01\Banco\Modelo\Conta\Titular;
+use Projeto01\Banco\Modelo\Endereco;
+use Projeto01\Banco\Modelo\CPF;
+use Projeto01\Banco\Modelo\Conta\Conta;
 
 $endereco = new Endereco('Petrópolis', 'um bairro', 'minha rua', '71B');
 $vinicius = new Titular(new CPF('123.456.789-10'), 'Vinicius Dias', $endereco);

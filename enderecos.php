@@ -1,6 +1,6 @@
 <?php
 
-use Alura\Banco\Modelo\Endereco;
+use Projeto01\Banco\Modelo\Endereco;
 
 require_once 'autoload.php';
 

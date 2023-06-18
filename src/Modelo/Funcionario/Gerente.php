@@ -1,8 +1,8 @@
 <?php
 
-namespace Alura\Banco\Modelo\Funcionario;
+namespace Projeto01\Banco\Modelo\Funcionario;
 
-use Alura\Banco\Modelo\Autenticavel;
+use Projeto01\Banco\Modelo\Autenticavel;
 
 class Gerente extends Funcionario implements Autenticavel
 {
